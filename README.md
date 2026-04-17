@@ -6,6 +6,12 @@ Codex bundles these tools for its own use. This script spawns `codex app-server`
 
 Python 3.9+ stdlib only — no external dependencies.
 
+## Demo
+
+Claude Code using the broker to schedule a reminder in the macOS Reminders app:
+
+[![Demo: scheduling a reminder via CUA](docs/demo-reminder.png)](docs/demo-reminder.png)
+
 ## Requirements
 
 - **macOS only.** The CUA tools are driven via macOS Accessibility APIs bundled inside `Codex.app`. There is no Windows/Linux equivalent.
